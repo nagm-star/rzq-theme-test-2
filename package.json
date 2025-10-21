@@ -1,0 +1,19 @@
+{
+    "name": "rzq-theme-test-2",
+    "version": "1.0.0",
+    "description": "Aliquid assumenda vo Fill in the details below to create your theme and connect it to GitHub.\nAliquid assumenda vo Fill in the details below to create your theme and connect it to GitHub.\n\n",
+    "scripts": {
+        "build": "npm run build:css && npm run build:js",
+        "build:css": "sass assets\/scss:assets\/css --style compressed",
+        "build:js": "webpack --mode production",
+        "watch": "npm run watch:css & npm run watch:js",
+        "watch:css": "sass assets\/scss:assets\/css --watch",
+        "watch:js": "webpack --mode development --watch",
+        "dev": "npm run watch"
+    },
+    "devDependencies": {
+        "sass": "^1.69.0",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4"
+    }
+}
